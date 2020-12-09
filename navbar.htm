@@ -1,0 +1,117 @@
+<HTML>
+<HEAD>
+   <TITLE>navbar</TITLE>
+   <base target="_self">
+</HEAD>
+<SCRIPT LANGUAGE = "JavaScript"><!--
+
+       browserName = navigator.appName;
+       browserVer = parseInt(navigator.appVersion);
+               if (browserVer >= 3) version ="n3";
+               else version = "n2";
+               
+               if (version == "n3") {
+               toc1on = new Image;
+               toc1on.src = "navbarimages/TopOn.gif";
+                toc2on = new Image;
+               toc2on.src = "navbarimages/IntroductionOn.gif";
+                toc3on = new Image;
+               toc3on.src = "navbarimages/TaskOn.gif";
+                toc4on = new Image;
+               toc4on.src = "navbarimages/ProcessOn.gif";
+                toc5on = new Image;
+               toc5on.src = "navbarimages/EvaluationOn.gif";
+                toc6on = new Image;
+               toc6on.src = "navbarimages/ConclusionOn.gif";
+                toc7on = new Image;
+               toc7on.src = "navbarimages/TeachersOn.gif";
+                toc8on = new Image;
+               toc8on.src = "navbarimages/CreditsOn.gif";
+               
+               
+                              
+               toc1off = new Image;
+               toc1off.src = "navbarimages/Top.gif";
+               toc2off = new Image;
+               toc2off.src = "navbarimages/Introduction.gif";
+               toc3off = new Image;
+               toc3off.src = "navbarimages/Task.gif";
+               toc4off = new Image;
+               toc4off.src = "navbarimages/Process.gif";
+               toc5off = new Image;
+               toc5off.src = "navbarimages/Evaluation.gif";
+               toc6off = new Image;
+               toc6off.src = "navbarimages/Conclusion.gif";
+               toc7off = new Image;
+               toc7off.src = "navbarimages/Teachers.gif";
+               toc8off = new Image;
+               toc8off.src = "navbarimages/Credits.gif";
+                             
+               }
+
+       function img_act(imgName) {
+               if (version == "n3") {
+               imgOn = eval(imgName + "on.src");
+               document [imgName].src = imgOn;
+              
+			
+			
+               }
+       }
+
+       function img_inact(imgName) {
+               if (version == "n3") {
+               imgOff = eval(imgName + "off.src");
+               document [imgName].src = imgOff;
+               
+												
+               }
+
+}
+//--></SCRIPT>
+<BODY BGCOLOR="#FFFFFF" BACKGROUND="images/worldthin.jpg" bgproperties="fixed">
+<CENTER><TABLE BORDER=0 CELLSPACING=0 align=center>
+   <TR>
+      <TD ALIGN=center VALIGN=top>
+         <P><A HREF="top.htm" TARGET=main onmouseover="img_act('toc1')" onmouseout="img_inact('toc1')" onclick="img_inact('toc1')"><font color="#000000"><IMG SRC="navbarimages/Top.gif" BORDER=0 ALIGN=bottom name=toc1 width="50" height="20"></font></A></P>
+      </TD>
+   </TR>
+   <TR>
+      <TD ALIGN=center VALIGN=top>
+         <P><A HREF="introduction.htm" TARGET=main onmouseover="img_act('toc2')" onmouseout="img_inact('toc2')" onclick="img_inact('toc2')"><font color="#000000"><IMG SRC="navbarimages/Introduction.gif" WIDTH=90 HEIGHT=20 BORDER=0 ALIGN=bottom name=toc2></font></A></P>
+      </TD>
+   </TR>
+   <TR>
+      <TD ALIGN=center VALIGN=top>
+         <P><A HREF="task.htm" TARGET=main onmouseover="img_act('toc3')" onmouseout="img_inact('toc3')" onclick="img_inact('toc3')"><font color="#000000"><IMG SRC="navbarimages/Task.gif" WIDTH=50 HEIGHT=20 BORDER=0 ALIGN=bottom name=toc3></font></A></P>
+      </TD>
+   </TR>
+   <TR>
+      <TD ALIGN=center VALIGN=top>
+         <P><A HREF="process.htm" TARGET=main onmouseover="img_act('toc4')" onmouseout="img_inact('toc4')" onclick="img_inact('toc4')"><font color="#000000"><IMG SRC="navbarimages/Process.gif" WIDTH=60 HEIGHT=20 BORDER=0 ALIGN=bottom name=toc4></font></A></P>
+      </TD>
+   </TR>
+   <TR>
+      <TD ALIGN=center VALIGN=top>
+         <P><A HREF="evaluation.htm" TARGET=main onmouseover="img_act('toc5')" onmouseout="img_inact('toc5')" onclick="img_inact('toc5')"><font color="#000000"><IMG SRC="navbarimages/Evaluation.gif" WIDTH=80 HEIGHT=20 BORDER=0 ALIGN=bottom name=toc5></font></A></P>
+      </TD>
+   </TR>
+   <TR>
+      <TD ALIGN=center VALIGN=top>
+         <P><A HREF="conclusion.htm" TARGET=main onmouseover="img_act('toc6')" onmouseout="img_inact('toc6')" onclick="img_inact('toc6')"><font color="#000000"><IMG SRC="navbarimages/Conclusion.gif" WIDTH=80 HEIGHT=20 BORDER=0 ALIGN=bottom name=toc6></font></A></P>
+      </TD>
+   </TR>
+   <TR>
+      <TD ALIGN=center VALIGN=top>
+         <P><A HREF="t-index.htm" TARGET="_top" onmouseover="img_act('toc7')" onmouseout="img_inact('toc7')" onclick="img_inact('toc7')"><font color="#000000"><IMG SRC="navbarimages/Teachers.gif" WIDTH=65 HEIGHT=20 BORDER=0 ALIGN=bottom name=toc7></font></A></P>
+      </TD>
+   </TR>
+   <TR>
+      <TD ALIGN=center VALIGN=top>
+         <P><A HREF="credits.htm" TARGET=main onmouseover="img_act('toc8')" onmouseout="img_inact('toc8')" onclick="img_inact('toc8')"><font color="#000000"><IMG SRC="navbarimages/Credits.gif" WIDTH=60 HEIGHT=20 BORDER=0 ALIGN=bottom name=toc8></font></A></P>
+      </TD>
+   </TR>
+</TABLE>
+</CENTER>
+</BODY>
+</HTML>
